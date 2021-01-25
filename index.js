@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env node  //this line is to access app any where in your teminal by writing 'watchit' and then the file path you want to watch
 
 const chokidar = require("chokidar");
 const debounce = require("lodash.debounce");
@@ -36,3 +36,5 @@ program
     });
 
 program.parse(process.argv);
+
+//use ' watchit help ' on your terminal to see more informations
