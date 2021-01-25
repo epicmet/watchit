@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 _watchit_ is a practice with nodejs from [udemy javascript course](https://www.udemy.com/course/javascript-beginners-complete-tutorial/)
 
 With this application on your system you track the changes in your nodejs javascript file, in otherword this application will run your code in the system terminal and if you make some changes and save it, this app will get those changes and run the file immediately. Somthing like **nodemon** command.
@@ -9,5 +9,5 @@ npm install NAME_OF_THE_PACKAGE
 ```
 And also require **fs** and **child_process** form nodejs api.
 
-##Note
+## Note
 This app will work on windows system and may or may not get some errors if you try to run it on linux or macOS
